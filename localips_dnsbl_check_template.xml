@@ -30,7 +30,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>blacklist.ips</key>
-                    <delay>30</delay>
+                    <delay>3600</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -64,7 +64,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},b.barracudacentral.org]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -110,7 +110,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},bl.spamcop.net]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -156,7 +156,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},cbl.abuseat.org]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -202,7 +202,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},dnsbl.sorbs.net]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -248,7 +248,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},ips.backscatterer.org]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -294,7 +294,7 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>blacklist.status[{#LOCALIP},zen.spamhaus.org]</key>
-                            <delay>30</delay>
+                            <delay>3600</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>

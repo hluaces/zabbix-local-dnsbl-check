@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>Template IP Blacklist</template>
-            <name>Template IP Blacklist</name>
+            <template>Blacklist local DNSBL check</template>
+            <name>Blacklist local DNSBL check</name>
             <description/>
             <groups>
                 <group>

@@ -45,10 +45,6 @@ This template is loosely based on Martin Mørch's ["_Automatically check DNS Bla
 
 I created a new templates because Martin's uses external scripts to check the hostname of a remote system on the different DNSBL services and I needed to check every IP on a mail server with multiple network interfaces.
 
-License
-====
-This template is distributed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or —at your option— any later version.
-
 Author
 ====
 

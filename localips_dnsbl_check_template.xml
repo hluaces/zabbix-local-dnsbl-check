@@ -19,7 +19,7 @@
             </groups>
             <applications>
                 <application>
-                    <name>Blacklist Check</name>
+                    <name>Blacklist local DNSBL check</name>
                 </application>
             </applications>
             <items/>
@@ -94,7 +94,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -140,7 +140,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -186,7 +186,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -232,7 +232,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -278,7 +278,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -324,7 +324,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Blacklist Check</name>
+                                    <name>Blacklist local DNSBL check</name>
                                 </application>
                             </applications>
                             <valuemap>
@@ -336,7 +336,7 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},cbl.abuseat.org].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},cbl.abuseat.org].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on Abuseat</name>
                             <url>https://www.abuseat.org/lookup.cgi</url>
                             <status>0</status>
@@ -346,7 +346,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},ips.backscatterer.org].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},ips.backscatterer.org].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on Backscatterer</name>
                             <url>http://www.backscatterer.org/?target=test</url>
                             <status>0</status>
@@ -356,7 +356,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},b.barracudacentral.org].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},b.barracudacentral.org].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on Barracuda</name>
                             <url>http://www.barracudacentral.org/lookups/lookup-reputation</url>
                             <status>0</status>
@@ -366,7 +366,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},dnsbl.sorbs.net].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},dnsbl.sorbs.net].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on Sorbs</name>
                             <url>http://www.sorbs.net/lookup.shtml</url>
                             <status>0</status>
@@ -376,7 +376,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},bl.spamcop.net].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},bl.spamcop.net].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on Spamcop</name>
                             <url>https://www.spamcop.net/bl.shtml</url>
                             <status>0</status>
@@ -386,7 +386,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template IP Blacklist:blacklist.status[{#LOCALIP},zen.spamhaus.org].last(#1)}=1</expression>
+                            <expression>{Blacklist local DNSBL check:blacklist.status[{#LOCALIP},zen.spamhaus.org].last(#1)}=1</expression>
                             <name>Ip {#LOCALIP} listed on zen.spamhaus</name>
                             <url>https://www.spamhaus.org/zen/</url>
                             <status>0</status>
